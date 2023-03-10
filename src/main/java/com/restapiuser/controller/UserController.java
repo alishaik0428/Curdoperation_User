@@ -22,7 +22,7 @@ public class UserController {
 	@RequestMapping("/start")
 	public String start()
 	{
-		return "You are in Main User Page";
+		return "You are in Main User";
 	}
 	
 	@GetMapping("/get")
